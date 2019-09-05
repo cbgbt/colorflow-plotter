@@ -1,0 +1,17 @@
+[package]
+name = "colorflow-plotter"
+version = "0.1.0"
+authors = ["cabbagebot <cbgbt@cabbage.bot>"]
+edition = "2018"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+dotenv = "0.14"
+euclid = "0.20"
+image = "0.22"
+indicatif = "0.11"
+noise = "0.5"
+palette = "0.4"
+rand = "0.7"
+svg = "0.5"
