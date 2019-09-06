@@ -290,9 +290,15 @@ fn main() {
 
     // Add all of our lines to layers
     for (pen, lines) in lines.drain() {
+        if pen == InkJoyGelPen::WhiteCanvas {
+            continue;
+        }
         let (r, g, b) = pen.rgb_pixel();
         let mut group =
-            svg::node::element::Group::new().set("stroke", format!("rgb({},{},{})", r, g, b));
+            svg::node::element::Group::new()
+                .set("stroke", format!("rgb({},{},{})", r, g, b))
+                .set("inkscape:groupmode", "layer")
+                .set("inkscape:label", format!("{:?}", pen));
 
         for line in lines {
             group = group.add(line);
