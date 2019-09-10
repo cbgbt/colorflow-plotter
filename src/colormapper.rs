@@ -91,7 +91,7 @@ impl ColoredPen for InkJoyGelPen {
             InkJoyGelPen::Green => (0x00, 0xa8, 0x5d),
             InkJoyGelPen::Lime => (0xa6, 0xd0, 0x60),
             InkJoyGelPen::SlateBlue => (0x28, 0x62, 0x8f),
-            InkJoyGelPen::Blue => (0x32, 0x55, 0xa4),
+            InkJoyGelPen::Blue => (0x0a, 0x2e, 0x83),
             InkJoyGelPen::BrightBlue => (0x47, 0xb7, 0xe6),
             InkJoyGelPen::Teal => (0x00, 0x9b, 0xa8),
             InkJoyGelPen::Purple => (0x78, 0x5b, 0xa7),
