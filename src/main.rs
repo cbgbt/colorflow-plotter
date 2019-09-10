@@ -186,7 +186,8 @@ fn main() {
         .set("viewBox", (0, 0, input_scale_to_x, input_scale_to_y))
         .set("width", svg_width)
         .set("height", svg_height)
-        .set("stroke-width", "0.7mm");
+        .set("stroke-width", "0.7mm")
+        .set("xmlns:inkscape", "http://www.inkscape.org/namespaces/inkscape");
 
     //document = draw_pixel_boundaries(document);
     document = document.add(
