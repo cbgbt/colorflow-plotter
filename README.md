@@ -4,5 +4,4 @@ Creates SVGs by mapping a vector field over an image and then drawing lines with
 ```
 $ cargo run --release examples/bird.jpg examples/bird.svg
 ```
-
-![](/examples/bird.png)
+![](/example/bird.png)
